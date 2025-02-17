@@ -24,7 +24,7 @@
 }
 
 .decorated-zone::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -36,7 +36,7 @@
 }
 
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
@@ -48,7 +48,7 @@
 }
 
 .rec-icon::before {
-  content: 'REC';
+  content: "REC";
   position: absolute;
   top: var(--padding);
   right: calc(29px + var(--padding));
@@ -59,7 +59,7 @@
 }
 
 .rec-icon::after {
-  content: '';
+  content: "";
   background: var(--accent-color);
   width: 9px;
   height: 9px;
@@ -132,7 +132,6 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-
 }
 
 .section {
@@ -229,11 +228,11 @@
     --padding: 20px;
   }
 
-  .header, .footer {
+  .header,
+  .footer {
     min-height: 1024px;
     padding: var(--padding);
   }
-
 
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -295,7 +294,8 @@
 }
 
 @media (width >= 1024px) {
-  .header, .footer {
+  .header,
+  .footer {
     min-height: 768px;
   }
 
@@ -307,7 +307,7 @@
   .header__theme-menu-list {
     flex-direction: row;
   }
-  
+
   .section-triple .section__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
