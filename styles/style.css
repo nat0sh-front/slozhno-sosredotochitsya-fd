@@ -107,7 +107,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--decor-color);
-  pointer-events: none
+  pointer-events: none;
 }
 
 .title {
@@ -163,13 +163,7 @@
 }
 
 .article-tips {
-  display: grid;
   gap: 20px;
-}
-
-.article__block {
-  display: grid;
-  gap: 10px;
 }
 
 .article__title {
@@ -260,12 +254,13 @@
     gap: 80px;
   }
 
-  .section-double {
+  .section-why,
+  .section-advices {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
 
-  .section-triple .section__title {
+  .section-causes .section__title {
     width: min-content;
   }
 
@@ -320,13 +315,18 @@
     margin-top: 10px;
   }
 
-  .section-triple .section__content {
+  .section-why,
+  .section-advices {
+    grid-template-columns: 1fr 2.06fr;
+  }
+
+  .section-causes .section__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
   }
 
-  .section-triple .section__title {
+  .section-causes .section__title {
     width: 33%;
   }
 }

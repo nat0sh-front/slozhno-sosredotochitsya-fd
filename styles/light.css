@@ -24,10 +24,6 @@
   --padding: 10px;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
 .theme-light .rec-icon {
   display: none;
 }
@@ -51,5 +47,9 @@
     --text-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
     --padding: 10px;
+  }
+
+  .rec-icon {
+    display: none;
   }
 }
