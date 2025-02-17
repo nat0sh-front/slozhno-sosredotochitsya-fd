@@ -31,3 +31,25 @@
 .theme-light .rec-icon {
   display: none;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+    --text-font: "IBM Plex Mono";
+    --text-font-size: 18px;
+    --text-line-height: 23.4px;
+    --bg-color: #fff1f7;
+    --header-color: #ffc2e6;
+    --section-title-text-color: #353430;
+    --title-text-color: #353430;
+    --decor-color: #353430;
+    --accent-color: #ff8dcb;
+    --hover-color: rgba(50, 49, 45, 0.4);
+    --text-color: #353430;
+    --bg-image: url("../images/cover-image-light.png");
+    --padding: 10px;
+  }
+}

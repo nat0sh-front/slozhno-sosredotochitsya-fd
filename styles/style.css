@@ -99,11 +99,15 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--decor-color);
 }
 
 .header__theme-menu-button_active {
   border: 1px solid var(--decor-color);
+  pointer-events: none
 }
 
 .title {
@@ -196,6 +200,10 @@
 }
 
 .article__link:focus {
+  outline: none;
+}
+
+.article__link:focus-visible {
   outline: 1px solid var(--text-color);
 }
 
