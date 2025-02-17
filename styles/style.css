@@ -308,6 +308,10 @@
     flex-direction: row;
   }
 
+  .header__subtitle {
+    margin-top: 10px;
+  }
+
   .section-triple .section__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
